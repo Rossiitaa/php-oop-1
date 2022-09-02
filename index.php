@@ -21,6 +21,31 @@
     <title>PHP OOP 1</title>
 </head>
 <body>
-    
+    <h1>MOVIE:</h1>
+    <ul>
+        <li>Title: <?php echo $movie1->getTitle(); ?></li>
+        <li>Director: <?php echo $movie1->getDirector(); ?></li>
+        <li>Year: <?php echo $movie1->getYear(); ?></li>
+    </ul>
+    <ul>
+        <li>Title: <?php echo $movie2->getTitle(); ?></li>
+        <li>Director: <?php echo $movie2->getDirector(); ?></li>
+        <li>Year: <?php echo $movie2->getYear(); ?></li>
+    </ul>
+    <ul>
+        <li>Title: <?php echo $movie3->getTitle(); ?></li>
+        <li>Director: <?php echo $movie3->getDirector(); ?></li>
+        <li>Year: <?php echo $movie3->getYear(); ?></li>
+    </ul>
+    <ul>
+        <li>Title: <?php echo $movie4->getTitle(); ?></li>
+        <li>Director: <?php echo $movie4->getDirector(); ?></li>
+        <li>Year: <?php echo $movie4->getYear(); ?></li>
+    </ul>
+    <ul>
+        <li>Title: <?php echo $movie5->getTitle(); ?></li>
+        <li>Director: <?php echo $movie5->getDirector(); ?></li>
+        <li>Year: <?php echo $movie5->getYear(); ?></li>
+    </ul>
 </body>
 </html>

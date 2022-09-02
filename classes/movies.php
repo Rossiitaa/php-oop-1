@@ -9,7 +9,6 @@
             $this->director = $_director;
             $this->year = $_year;
         }
-    }
 
     public function getTitle() {
         return $this->title;
@@ -20,9 +19,5 @@
     public function getYear() {
         return $this->year;
     }
-
-
-
-
-
+}
 ?>
